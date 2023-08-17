@@ -4,7 +4,7 @@ print(str_var1)
 print(str_var1[0])
 print(str_var1[2])
 print(str_var1[4])
-# print(str_var1[6])
+print(str_var1[6])
 
 str_var2 = "반갑습니다."
 print(str_var1 + str_var2)
