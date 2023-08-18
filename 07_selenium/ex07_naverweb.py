@@ -7,9 +7,9 @@ driver = webdriver.Chrome()
 # 접속할 주소
 driver.get("https://comic.naver.com/webtoon")
 
-time.sleep(1)
+time.sleep(3)
 
 webtoon_title = driver.find_elements(By.CSS_SELECTOR, '[class="text"]')
 for title in webtoon_title:
     print(title.text)
-
+print(len(webtoon_title))

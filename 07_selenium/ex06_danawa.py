@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 # 접속할 주소
 driver.get("https://prod.danawa.com/list/?cate=112758&shortcutKeyword=%EB%85%B8%ED%8A%B8%EB%B6%81")
 
-# 노트북 상품명 접근
+# 노트북 상품명 접근                                   name,id로 접근할때는 []에 담아서
 notebook_name = driver.find_elements(By.CSS_SELECTOR, '[name="productName"]')
 for name in notebook_name:
     print(name.text)
