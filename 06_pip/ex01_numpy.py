@@ -1,6 +1,6 @@
 # numpy import
 import numpy as np
-
+# numpy 쓰는 이유는 수학적 계산을 하기 위해서 쓴다.
 # numpy 배열 선언
 arr = np.array([2, 1, 4, 3, 5, 7, 8, 9, 6])
 print(arr)

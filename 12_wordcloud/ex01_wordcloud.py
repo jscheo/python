@@ -28,3 +28,4 @@ plt.axis('off') # x, y 축은 필요없음으로 생략
 plt.imshow(result)
 #이미지 출력
 plt.show()
+wc.to_file('wordcloud_result.png')
